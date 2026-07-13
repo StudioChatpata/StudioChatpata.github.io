@@ -100,6 +100,12 @@ footer {
     margin-top: auto;
 }
 
+.pixel-image{
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+}
+
 /* --- Responsive Media Queries (Tablet and Desktop) --- */
 @media (min-width: 768px) {
     header .container {

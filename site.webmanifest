@@ -1,0 +1,21 @@
+{
+  "name": "Studio Chatpata's Website",
+  "short_name": "StdCtPta",
+  "description": "The official corner of the internet to host everyone's favourite game dev, animation, and design studio. The one and only, Studio Chatpata",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f6f8fa",
+  "theme_color": "#24292e",
+  "icons": [
+    {
+      "src": "/Images/logopx.png",
+      "sizes": "128x64",
+      "type": "image/png"
+    },
+    {
+      "src": "/Images/logopx.png",
+      "sizes": "256x128",
+      "type": "image/png"
+    }
+  ]
+}

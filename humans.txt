@@ -1,0 +1,10 @@
+/* Team */
+octowild
+hurrican8104
+DestructionDNR
+ButrChiknMan
+
+/* Website */
+  Language: English
+  Doctype: HTML5
+  IDE: Visual Studio Code

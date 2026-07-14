@@ -1,4 +1,4 @@
-/* --- Basic Reset --- */
+/* --- Basic Reset and Utility --- */
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, sans-serif;
     line-height: 1.6;
     color: #24292e; /* GitHub dark text */
     background-color: #f6f8fa; /* GitHub light background */
@@ -15,10 +15,9 @@ body {
     min-height: 100vh; /* Keeps footer at the bottom */
 }
 
-/* --- Layout Utility --- */
-.container {
+.BaseContainer {
     width: 90%;
-    max-width: 1000px;
+    max-width: 1500px;
     margin: 0 auto;
 }
 
@@ -29,7 +28,7 @@ header {
     padding: 1rem 0;
 }
 
-header .container {
+header .BaseContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -100,6 +99,7 @@ footer {
     margin-top: auto;
 }
 
+/* --- Images --- */
 .pixel-image{
     image-rendering: auto;
     image-rendering: crisp-edges;
@@ -108,7 +108,7 @@ footer {
 
 /* --- Responsive Media Queries (Tablet and Desktop) --- */
 @media (min-width: 768px) {
-    header .container {
+    header .BaseContainer {
         flex-direction: row;
         justify-content: space-between;
     }
